@@ -1,0 +1,183 @@
+* {
+  background-color: var(--main-c);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --main-c: #e9e9e9;
+  --text-main-c: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo p {
+  color: var(--text-main-c);
+  margin: 20px auto 0px auto;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.container-1 {
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+}
+
+.description {
+  background: transparent;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  z-index: 1;
+  float: left;
+  left: 10%;
+  top: 20%;
+
+  position: absolute;
+}
+
+.game-bg {
+  width: 100%;
+  z-index: 0;
+}
+
+.description img {
+  background: transparent;
+  margin: 0px 0px 0px 0px;
+  max-width: 20%;
+  float: left;
+}
+
+.description p {
+  background: transparent;
+  margin: 20px 0px 0px 0px;
+  float: left;
+  max-width: 35%;
+  color: var(--text-main-c);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.platforms {
+  background: transparent;
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30%;
+  height: auto;
+}
+
+.platforms img {
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 10%;
+  text-align: center;
+}
+
+#ea-play {
+  width: 30%;
+}
+
+.container-2 {
+  margin: 30px auto 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.price-box {
+  background-color: #fff;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  display: flex;
+  width: fit-content;
+  border-radius: 5px;
+
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.77);
+}
+
+.price-box img {
+  background: transparent;
+  width: 35px;
+  height: auto;
+}
+
+.price-box p {
+  background: transparent;
+  margin: auto 0px auto 0px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container-3 {
+  margin: 0px auto 0px auto;
+  padding: 40px;
+  justify-content: center;
+  width: fit-content;
+}
+
+.header-1 {
+  margin: 0px auto 0px auto;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.header-1 img {
+  width: 250px;
+}
+
+.header-1 p {
+  margin: auto 0px auto 0px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.min-rcmnd {
+  margin: 0px auto 0px auto;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.min,
+.rcmnd {
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 50%;
+}
+
+.unit-text {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.unit-text p {
+  margin: 0px 0px 0px 0px;
+  float: left;
+}
+
+.heading {
+  margin: 0px 0px 5px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
